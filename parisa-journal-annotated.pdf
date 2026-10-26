@@ -22137,7 +22137,7 @@ endstream
 endobj
 
 1936 0 obj
-<</Type/Annot/Subtype/Highlight/C[.95 .55 .15]/P 55 0 R/F 4/QuadPoints[350.69447 195.14063 477.64356 195.14063 350.69447 180.60724 477.64356 180.60724]/Rect[347.2688 179.6989 481.0692 196.04897]/AP<</N 1937 0 R>>/NM(fitz-A0)/Contents(SIG-MODEL-01: How many satellites are in one simulated snapshot [Deviates, impact low]\nWe do: Each snapshot holds one satellite, plus a spoofed copy of it when spoofed, plus noise.\nIf we got it wrong: Small. GPS codes are designed so another satellite leaks in at roughly 24 dB below the peak, so the noise floor rises only slightly. This cannot explain the strength gap. It matters more on real recordings than on synthetic ones.\nTo close: Check thesis Ch.3 for how many satellites a training snapshot holds.)/T(SIG-MODEL-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.95 .55 .15]/P 55 0 R/F 4/QuadPoints[350.69447 195.14063 477.64356 195.14063 350.69447 180.60724 477.64356 180.60724]/Rect[347.2688 179.6989 481.0692 196.04897]/AP<</N 1937 0 R>>/NM(fitz-A0)/Contents(SIG-MODEL-01: How many satellites are in one simulated snapshot [Deviates, impact low]\nWe do: Each snapshot holds one satellite, plus a spoofed copy of it when spoofed, plus noise.\nIf we got it wrong: Small. GPS codes are designed so another satellite leaks in at roughly 24 dB below the peak, so the noise floor rises only slightly. This cannot explain the strength gap. It matters more on real recordings than on synthetic ones.\nTo close: Closed: one satellite per snapshot is accepted \(the group simulates one satellite for per-satellite processing, Li 2020\); no ablation.)/T(SIG-MODEL-01)/BM/Multiply>>
 endobj
 
 1937 0 obj
@@ -22377,34 +22377,30 @@ endstream
 endobj
 
 1976 0 obj
-<</Type/Annot/Subtype/Highlight/C[.98 .82 .2]/P 1000 0 R/F 4/QuadPoints[353.0418 246.48358 477.61946 246.48358 353.0418 231.9502 477.61946 231.9502]/Rect[349.61616 231.04186 481.0451 247.39192]/AP<</N 1977 0 R>>/NM(fitz-A8)/Contents(TRAIN-SIZE-01: How much training data [Implemented, unverified, impact medium]\nWe do: 3000 training tiles \(the p11 reading\).\nIf we got it wrong: Measured in part: doubling to 6000 tiles raises Pd at 36 dB-Hz from 0.931 to 0.955. The 10^4 reading would likely raise it further, which moves us away from their curve, not toward it. The "hundreds" reading would lower it, toward their curve. So the size could explain part of the gap only if the thesis's smallest reading is the true one.\nTo close: Ablation: add a 10^4 arm and a few-hundred arm to 0053's arm set.)/T(TRAIN-SIZE-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.35 .78 .45]/P 1000 0 R/F 4/QuadPoints[353.0418 246.48358 477.61946 246.48358 353.0418 231.9502 477.61946 231.9502]/Rect[349.61616 231.04186 481.0451 247.39192]/AP<</N 1977 0 R>>/NM(fitz-A8)/Contents(TRAIN-SIZE-01: How much training data [Verified, impact medium]\nWe do: 3000 training tiles \(the p11 reading\).\nIf we got it wrong: Measured in part: doubling to 6000 tiles raises Pd at 36 dB-Hz from 0.931 to 0.955. The 10^4 reading would likely raise it further, which moves us away from their curve, not toward it. The "hundreds" reading would lower it, toward their curve. So the size could explain part of the gap only if the thesis's smallest reading is the true one.\nTo close: Nothing left to read: 3000 pairs is the faithful size and ours matches. The 10^4 arm is dropped; a few-hundred arm stays optional.)/T(TRAIN-SIZE-01)/BM/Multiply>>
 endobj
 
 1977 0 obj
-<</Type/XObject/Subtype/Form/BBox[349.61616 231.04186 481.0451 247.39192]/Matrix[1 0 0 1 0 0]/Resources<</ExtGState<</H<</BM/Multiply>>>>>>/Length 115/Filter/FlateDecode>>
+<</Type/XObject/Subtype/Form/BBox[349.61616 231.04186 481.0451 247.39192]/Matrix[1 0 0 1 0 0]/Resources<</ExtGState<</H<</BM/Multiply>>>>>>/Length 116/Filter/FlateDecode>>
 stream
-x⁄Mé;É@D{ü¬'po◊æAZŒÄ(Ä˚K∏H¬ “OÛ4>‡ı∆ı˙&e Ö 	û+®+M∆Å¢LÈì‡jIçÎ
-:i˜h80+√{
->Æ5≤P\¿zØbZË\UÁ¡~–dpﬂ,ò·*Æ&∞
+x⁄Mé1√@˚}/ ÊÄÉ˚AZø¡R‹ÿEíˇK°H‚“£-O‹Ó¥øø…ÍƒëƒÊÙ⁄°Æºò$5æ4:°6∏K]AgœN≥2<F£ÀµŒñÍI,¢ä√˙DXJU]&˚Bˇë…˝}≥·¨¯ R&„
 endstream
 endobj
 
 1978 0 obj
-<</Type/Annot/Subtype/FreeText/Rect[511.276 237.98358 589.276 247.48358]/CL[0 790.866 545.50747 247.48358]/BS<</Type/Border/W 0>>/DA(0.15 0.15 0.15 rg /Helv 5.5 Tf)/P 1000 0 R/F 4/Contents(TRAIN-SIZE-01)/Q 0/C[.98 .82 .2]/RD[0 0 0 0]/AP<</N 1979 0 R>>/NM(fitz-A9)>>
+<</Type/Annot/Subtype/FreeText/Rect[511.276 237.98358 589.276 247.48358]/CL[0 790.866 545.50747 247.48358]/BS<</Type/Border/W 0>>/DA(0.15 0.15 0.15 rg /Helv 5.5 Tf)/P 1000 0 R/F 4/Contents(TRAIN-SIZE-01)/Q 0/C[.35 .78 .45]/RD[0 0 0 0]/AP<</N 1979 0 R>>/NM(fitz-A9)>>
 endobj
 
 1979 0 obj
 <</Type/XObject/Subtype/Form/BBox[511.276 237.98358 589.276 247.48358]/Matrix[1 0 0 1 0 0]/Resources<</Font<</Helv 1930 0 R>>>>/Length 143/Filter/FlateDecode>>
 stream
-xú}éΩ
-¬@Ñ˚}ä)µ∏ıˆ¬˝ï
-A”∆¡VìÄ®`
-}}/ÖÖLÒ13ú89∞√8ã««Ìö,^‰Eÿ≈ WEŒ©Ú	1!≥«ÿQˇ7=–ù$∞0ÇﬂÍÈF+˝⁄,JU8⁄"Åûö¿aB&^l∫Îæ,hO3móÕ÷Ïõcm¨Ã°™ïvÙ”:+˙
+xú}é±
+¬@D˚˝ä)µ∏ı6Á›%•B–4ÇqA∞5â *h°øÔlDp`ã«>ò·¡πœ#'b1¸\ª"èE.rB2Weà%LØÿÙûÜøﬂ=›ËNÁ!¯UèWZÍWßM0U8{ã@;Có8çË”»≥uy"ZÉ4—v—l‹Æ9‘ŒÀz¶ZiKo˝},-
 endstream
 endobj
 
 1980 0 obj
-<</Type/Annot/Subtype/Highlight/C[.95 .55 .15]/P 1000 0 R/F 4/QuadPoints[181.86518 232.3324 279.48298 232.3324 181.86518 217.79901 279.48298 217.79901]/Rect[178.43952 216.89067 282.90864 233.24074]/AP<</N 1981 0 R>>/NM(fitz-A10)/Contents(EVAL-TESTSET-01: How big the test set is, and what one test image is [Deviates, impact medium]\nWe do: No fixed test set. For each C/N0 value, 700 fresh spoofed scenarios, each simulated six times \(K = 6\), scored at three tiles each: 1400 positives \(real and spoofer peak\) and 700 noise negatives. config.yaml's n_test_per_class: 1500 is never read; run.py hard-codes 700. Our spec \(section 10\) says the paper tests on "a ~3000-image test set per C/N0"; the journal says 3000 in total.\nIf we got it wrong: Measured from Fig. 8a: each Pfa step is 0.0053, so each journal Pfa is counted over about 189 noise cases per C/N0. Their curves therefore cannot go below Pfa 0.005, and a published Pfa of 0.05 carries a sampling error of about 0.016 on its own. Our digitized targets treat the points as exact up to reading error \(0.03 in Pd\). 3000 images over four C/N0 values is 750 per value, and 189 is about a quarter of that, which fits several splits and settles none. The Sensors acquisition figure steps in 1/697, a different test set again.\nTo close: Fix: carry the published sample size into the comparison as part of each target's tolerance \(binomial error from about 189 noise cases, and from the unknown number of positives\), instead of treating digitized points as exact. A person confirms the step size on journal p16.)/T(EVAL-TESTSET-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.95 .55 .15]/P 1000 0 R/F 4/QuadPoints[181.86518 232.3324 279.48298 232.3324 181.86518 217.79901 279.48298 217.79901]/Rect[178.43952 216.89067 282.90864 233.24074]/AP<</N 1981 0 R>>/NM(fitz-A10)/Contents(EVAL-TESTSET-01: How big the test set is, and what one test image is [Deviates, impact medium]\nWe do: No fixed test set. For each C/N0 value, 700 fresh spoofed scenarios, each simulated six times \(K = 6\), scored at three tiles each: 1400 positives \(real and spoofer peak\) and 700 noise negatives. config.yaml's n_test_per_class: 1500 is never read; run.py hard-codes 700. Our spec \(section 10\) says the paper tests on "a ~3000-image test set per C/N0"; the journal says 3000 in total.\nIf we got it wrong: Measured from Fig. 8a: each Pfa step is 0.0053, so each journal Pfa is counted over about 189 noise cases per C/N0. Their curves therefore cannot go below Pfa 0.005, and a published Pfa of 0.05 carries a sampling error of about 0.016 on its own. Our digitized targets treat the points as exact up to reading error \(0.03 in Pd\). 3000 images over four C/N0 values is 750 per value, and 189 is about a quarter of that, which fits several splits and settles none. The Sensors acquisition figure steps in 1/697, a different test set again.\nTo close: Fix: carry the published sample size into the comparison as part of each target's tolerance \(binomial error from about 189 noise cases, and from the unknown number of positives\), instead of treating digitized points as exact. The step size is measured twice \(check:fig8a_two_pass\): exactly 1/189. The journal's '3000 images for testing' was added at revision, so it does not give the test size.)/T(EVAL-TESTSET-01)/BM/Multiply>>
 endobj
 
 1981 0 obj
@@ -22451,7 +22447,7 @@ endstream
 endobj
 
 1988 0 obj
-<</Type/Annot/Subtype/Highlight/C[.45 .6 .95]/P 1000 0 R/F 4/QuadPoints[194.474 218.1836 318.12449 218.1836 194.474 203.6502 318.12449 203.6502]/Rect[191.04834 202.74187 321.55015 219.09194]/AP<</N 1989 0 R>>/NM(fitz-A14)/Contents(SIG-CN0RANGE-01: Signal strength range used for training [Verified]\nWe do: Uniform 36 to 45 dB-Hz in training; scored at 36, 39, 42, 45.\n\nSIG-CN0DEF-01: What "C/N0 = 36 dB-Hz" means in the simulator [Paper silent, our choice, impact high]\nWe do: The textbook convention. Signal amplitude squared = C/N0 / fs with noise variance 1, so after 1 ms of correlation the peak stands C/N0 x 1 ms above the noise \(6 dB at 36 dB-Hz\).\nIf we got it wrong: The prime suspect for the strength gap. Our detector looks several dB stronger than theirs at the same C/N0. Gate A put it at 6 dB, but that figure compared different false-alarm rates \(RES-FIG7-36-01\); a matched reading of the Sensors ROC suggests about 4 to 5 dB at 36 dB-Hz \(RES-SENSORS6-01\). Common bookkeeping slips are worth exactly 3 dB \(noise variance per rail instead of total\) or 6 dB \(two such slips, or amplitude used where power was meant\). If this is the cause, the reconstruction is fine and only the axis label differs.\nTo close: Test it with the paper's own theory curves \(CAF-STDDET-02\). They share the C/N0 axis and have no free parameters, so any horizontal offset is the convention. A second, cheaper route: digitize the noise floor of Fig. 1 and compare the peak-to-floor ratio with C/N0 x 1 ms.)/T(SIG-CN0RANGE-01 + SIG-CN0DEF-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.45 .6 .95]/P 1000 0 R/F 4/QuadPoints[194.474 218.1836 318.12449 218.1836 194.474 203.6502 318.12449 203.6502]/Rect[191.04834 202.74187 321.55015 219.09194]/AP<</N 1989 0 R>>/NM(fitz-A14)/Contents(SIG-CN0RANGE-01: Signal strength range used for training [Verified]\nWe do: Uniform 36 to 45 dB-Hz in training; scored at 36, 39, 42, 45.\n\nSIG-CN0DEF-01: What "C/N0 = 36 dB-Hz" means in the simulator [Paper silent, our choice, impact high]\nWe do: The textbook convention. Signal amplitude squared = C/N0 / fs with noise variance 1, so after 1 ms of correlation the peak stands C/N0 x 1 ms above the noise \(6 dB at 36 dB-Hz\).\nIf we got it wrong: The prime suspect for the strength gap. Our detector looks several dB stronger than theirs at the same C/N0. Gate A put it at 6 dB, but that figure compared different false-alarm rates \(RES-FIG7-36-01\); a matched reading of the Sensors ROC suggests about 4 to 5 dB at 36 dB-Hz \(RES-SENSORS6-01\). Common bookkeeping slips are worth exactly 3 dB \(noise variance per rail instead of total\) or 6 dB \(two such slips, or amplitude used where power was meant\). If this is the cause, the reconstruction is fine and only the axis label differs.\nTo close: Test it with the paper's own theory equations \(CAF-STDDET-02\), which leave this convention as the one free parameter. Candidates: ours \(amplitude^2 = \(C/N0\)/fs, unit noise variance\) and the group's convention in Li 2020 and Li 2023 \(amplitude sqrt\(2C\), per-rail noise sigma^2 = N0 B_Rx\) with B_Rx = fs or fs/2; the second makes their signal 3 dB stronger than ours, which would widen the strength gap. A second, cheaper route: digitize the noise floor of Fig. 1 and compare the peak-to-floor ratio with C/N0 x 1 ms.)/T(SIG-CN0RANGE-01 + SIG-CN0DEF-01)/BM/Multiply>>
 endobj
 
 1989 0 obj
@@ -22570,28 +22566,27 @@ endstream
 endobj
 
 2008 0 obj
-<</Type/Annot/Subtype/Highlight/C[.98 .82 .2]/P 1000 0 R/F 4/QuadPoints[407.98448 133.28119 477.61256 133.28119 407.98448 118.7478 477.61256 118.7478]/Rect[404.5588 117.83946 481.0382 134.18953]/AP<</N 2009 0 R>>/NM(fitz-A24)/Contents(CAF-FEATURE-01: What the network sees: CAF magnitude or CAF power? [Implemented, unverified, impact medium]\nWe do: We feed the power, |CAF|^2. Our docs \(sim.py, and the glossary's |CAF|^2 entry\) justify this with eqs. \(5\) and \(8\), which describe the classic detector, not the network input. Fig. 2 is better support.\nIf we got it wrong: Our numbers shift by about 3 points \(Pd 0.931 with power against 0.962 with magnitude, at 36 dB-Hz and Pfa 0.05, five seeds, 0053\). Magnitude scores higher, which moves us further from their curve, not closer. So this cannot explain the strength gap, but it changes every number we report.\nTo close: A person checks Fig. 2's axis label on p8. If it reads as power, mark verified: the figure shows what the network is fed. Thesis eqs. 2.21 and 3.4 and Sensors eq. 13 are a second route if the figure is judged too indirect.)/T(CAF-FEATURE-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.35 .78 .45]/P 1000 0 R/F 4/QuadPoints[407.98448 133.28119 477.61256 133.28119 407.98448 118.7478 477.61256 118.7478]/Rect[404.5588 117.83946 481.0382 134.18953]/AP<</N 2009 0 R>>/NM(fitz-A24)/Contents(CAF-FEATURE-01: What the network sees: CAF magnitude or CAF power? [Verified, impact medium]\nWe do: We feed the power, |CAF|^2. Our docs \(sim.py, and the glossary's |CAF|^2 entry\) justify this with eqs. \(5\) and \(8\), which describe the classic detector, not the network input. Fig. 2 is better support.\nIf we got it wrong: Our numbers shift by about 3 points \(Pd 0.931 with power against 0.962 with magnitude, at 36 dB-Hz and Pfa 0.05, five seeds, 0053\). Magnitude scores higher, which moves us further from their curve, not closer. So this cannot explain the strength gap, but it changes every number we report.\nTo close: A person checks Fig. 2's axis label on p8. If it reads as power, mark verified: the figure shows what the network is fed. Thesis eqs. 2.21 and 3.4 and Sensors eq. 13 are a second route if the figure is judged too indirect.)/T(CAF-FEATURE-01)/BM/Multiply>>
 endobj
 
 2009 0 obj
 <</Type/XObject/Subtype/Form/BBox[404.5588 117.83946 481.0382 134.18953]/Matrix[1 0 0 1 0 0]/Resources<</ExtGState<</H<</BM/Multiply>>>>>>/Length 114/Filter/FlateDecode>>
 stream
-x⁄MŒ;É@E—ﬁ´
-¯á=;HÀê†I
-»˛•LëÑi\ÈÍ˘§È¡«˚{—äQ PæÚ9;∏ã“≥¯’—Q›T!iû<PCEÑÒêöAK§ÒFûâE4ñAü‰%ò≠Ø˘Mˇëª˝=≥—N¥“8ˆ&∆
+x⁄MŒΩÉ@Ü·ﬁSxÇ¸á}§e$hí≤øî+ípçã«zeü4=¯x',YæÚ9— ΩX§êﬁ7ØééàÍ¶
+IÛ‰Å*"åá‘Z"ç7ÚL,¢±˙$/¡l•c~”ˇ»›˛ûŸh'ZÈ`J&˘
 endstream
 endobj
 
 2010 0 obj
-<</Type/Annot/Subtype/FreeText/Rect[511.276 124.78119 589.276 134.28119]/CL[0 790.866 546.32369 134.28119]/BS<</Type/Border/W 0>>/DA(0.15 0.15 0.15 rg /Helv 5.5 Tf)/P 1000 0 R/F 4/Contents(CAF-FEATURE-01)/Q 0/C[.98 .82 .2]/RD[0 0 0 0]/AP<</N 2011 0 R>>/NM(fitz-A25)>>
+<</Type/Annot/Subtype/FreeText/Rect[511.276 124.78119 589.276 134.28119]/CL[0 790.866 546.32369 134.28119]/BS<</Type/Border/W 0>>/DA(0.15 0.15 0.15 rg /Helv 5.5 Tf)/P 1000 0 R/F 4/Contents(CAF-FEATURE-01)/Q 0/C[.35 .78 .45]/RD[0 0 0 0]/AP<</N 2011 0 R>>/NM(fitz-A25)>>
 endobj
 
 2011 0 obj
-<</Type/XObject/Subtype/Form/BBox[511.276 124.78119 589.276 134.28119]/Matrix[1 0 0 1 0 0]/Resources<</Font<</Helv 1930 0 R>>>>/Length 142/Filter/FlateDecode>>
+<</Type/XObject/Subtype/Form/BBox[511.276 124.78119 589.276 134.28119]/Matrix[1 0 0 1 0 0]/Resources<</Font<</Helv 1930 0 R>>>>/Length 141/Filter/FlateDecode>>
 stream
-xú}éΩ
-¬@Ñ˚}ä)µ∏ıˆ˛ (m+>Ä&Ç®`
-}}/ÖÖLÒ13ú89∞√x&èèªYº»ã∞ã‚ñìHFL»Ï1ˆ4¸Mtß	,åÖ‡∑zº—Jø6ÎÖZé∂J†ßä&pò–Üâ€˛˙ÑØ:–l›¥¶-çÓªb¨Ã°*J;zÈ+Û
+xú}é¡
+¬@DÔ˘ä9ÍacRª[{¨≤’´%‚h+à
+z–ﬂ7/"8ê√#fx¡’\F<NƒÍ¯πnMÇEU.™-JUk∏^≥Î=ø{∫—ùÇ P¸™á+-Ì´”'∏™\âGaG«ê8ç(i‰Ÿ¶ø<Ω¡ö¨ö6¥π±]óÉËv¶l¥•7,&
 endstream
 endobj
 
@@ -22812,49 +22807,49 @@ endstream
 endobj
 
 2048 0 obj
-<</Type/Annot/Subtype/Highlight/C[.98 .82 .2]/P 1066 0 R/F 4/QuadPoints[357.56248 463.83818 477.6732 463.83818 357.56248 449.30479 477.6732 449.30479]/Rect[354.1368 448.39646 481.09886 464.7465]/AP<</N 2049 0 R>>/NM(fitz-A10)/Contents(TRAIN-LABELS-01: What the network is trained to tell apart [Implemented, unverified, impact high]\nWe do: Per-tile peak against noise. H1 is a tile with a centred peak \(real or spoofer\), H0 a tile of noise; the spoofer never appears in training. This is the Sensors acquisition task. 0053's spec \(decision D1\) adopted it from the false-alarm wording "the NN detects the noise as a signal/spoofer" \(journal p16, thesis p64\) and asked Hamza to confirm the choice; I found no record either way.\nIf we got it wrong: Every Gate A number would measure a different task from theirs. For our reading: probability maps and GMM peak counting only make sense if the network marks peaks, and the false-alarm wording treats signal and spoofer as one class. Against it: the training paragraph and Fig. 2. If they trained spoofed against clean tiles, their per-tile scores would be lower than ours at the same C/N0, the direction of the strength gap.\nTo close: Reading first: thesis Fig. 3.11 and its surrounding text, for which tiles carry which label. If still ambiguous, an experiment: train the spoofed-against-clean reading \(H1 = tiles from spoofed snapshots that contain the spoofer, H0 = tiles from clean snapshots that contain the real peak\) and score both readings against the published curves.)/T(TRAIN-LABELS-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.95 .55 .15]/P 1066 0 R/F 4/QuadPoints[357.56248 463.83818 477.6732 463.83818 357.56248 449.30479 477.6732 449.30479]/Rect[354.1368 448.39646 481.09886 464.7465]/AP<</N 2049 0 R>>/NM(fitz-A10)/Contents(TRAIN-LABELS-01: What the network is trained to tell apart [Deviates, impact high]\nWe do: Per-tile peak against noise. H1 is a tile with a centred peak \(real or spoofer\), H0 a tile of noise; the spoofer never appears in training. This is the Sensors acquisition task. 0053's spec \(decision D1\) adopted it from the false-alarm wording "the NN detects the noise as a signal/spoofer" \(journal p16, thesis p64\) and asked Hamza to confirm the choice; I found no record either way.\nIf we got it wrong: Every Gate A number would measure a different task from theirs. For our reading: probability maps and GMM peak counting only make sense if the network marks peaks, and the false-alarm wording treats signal and spoofer as one class. Against it: the training paragraph and Fig. 2. If they trained spoofed against clean tiles, their per-tile scores would be lower than ours at the same C/N0, the direction of the strength gap.\nTo close: Experiment, now required: train the spoofed-against-clean reading \(H1 = centred tiles from spoofed snapshots, H0 = centred real-peak tiles from clean snapshots\) and score both readings against the published curves. Gate A's detector verdict must then say which task it reproduced.)/T(TRAIN-LABELS-01)/BM/Multiply>>
 endobj
 
 2049 0 obj
 <</Type/XObject/Subtype/Form/BBox[354.1368 448.39646 481.09886 464.7465]/Matrix[1 0 0 1 0 0]/Resources<</ExtGState<</H<</BM/Multiply>>>>>>/Length 115/Filter/FlateDecode>>
 stream
-x⁄MŒ±	1Ö·^ShÇ[í%yÉ¥ô· ◊‰äKˆá8ÏkT|Ût“ÌŒ˚Á—ìë¬~Ô§-–\,Ÿ¨CãEÁc®°™lÇ⁄xëXïüÃ‘©Yì7≤x®\Eñ•g˙™/47V;ŸËIÙ†/:Ö&ﬁ
+x⁄MŒΩ	1Ü·^ShÇ/∂ıÎ“fÜÉ\ì+.Ÿ‚@∞Øêä^§ìnwﬁ?ˇçnSçﬂ;âÃõ&´vH—Ë|UTÒÅ÷CçyÅ÷ˆìô∫ %kÚFi|ëfEÈôæÍÕ´ùølÙ$z–`û'
 endstream
 endobj
 
 2050 0 obj
-<</Type/Annot/Subtype/FreeText/Rect[511.276 455.33818 589.276 464.83818]/CL[0 790.866 542.37399 464.83818]/BS<</Type/Border/W 0>>/DA(0.15 0.15 0.15 rg /Helv 5.5 Tf)/P 1066 0 R/F 4/Contents(TRAIN-LABELS-01)/Q 0/C[.98 .82 .2]/RD[0 0 0 0]/AP<</N 2051 0 R>>/NM(fitz-A11)>>
+<</Type/Annot/Subtype/FreeText/Rect[511.276 455.33818 589.276 464.83818]/CL[0 790.866 542.37399 464.83818]/BS<</Type/Border/W 0>>/DA(0.15 0.15 0.15 rg /Helv 5.5 Tf)/P 1066 0 R/F 4/Contents(TRAIN-LABELS-01)/Q 0/C[.95 .55 .15]/RD[0 0 0 0]/AP<</N 2051 0 R>>/NM(fitz-A11)>>
 endobj
 
 2051 0 obj
-<</Type/XObject/Subtype/Form/BBox[511.276 455.33818 589.276 464.83818]/Matrix[1 0 0 1 0 0]/Resources<</Font<</Helv 1930 0 R>>>>/Length 145/Filter/FlateDecode>>
+<</Type/XObject/Subtype/Form/BBox[511.276 455.33818 589.276 464.83818]/Matrix[1 0 0 1 0 0]/Resources<</Font<</Helv 1930 0 R>>>>/Length 144/Filter/FlateDecode>>
 stream
-xú}éΩ
-¬@Ñ˚}ä)µ∏u˜‚˝§L ®„Å†â *òB_ﬂKa!ÇS|Ã¿ó-ÿb<´√«›ä/r™lÉ«“9.ä®!¢dá±ß·oz†;=H!0≈oıx£:}mÊπ™$KëNçg?°¯âÎ˛˙ÑÀi†YÍ™Õ÷¥U›¥{#:G∫PìhGoœ,Z
+xú}éA
+¬@E˜9≈_Íb‚ƒöÈtŸBQ°÷†≠ *ËBØof·Bü»ÉÆ¨Q<Nî◊'˝í<^§"</™\Q" àäMh¸{›”çÓ$pÇ_ıp•&}u⁄¶
+óﬁFêéÜ.p»ËCÊŸj∏<°÷êFö§æ^o\W7m∑s^¶HgjmÈH˘,ã
 endstream
 endobj
 
 2052 0 obj
-<</Type/Annot/Subtype/Highlight/C[.98 .82 .2]/P 1066 0 R/F 4/QuadPoints[335.5879 407.2406 477.60557 407.2406 335.5879 392.7072 477.60557 392.7072]/Rect[332.16224 391.7989 481.03123 408.14894]/AP<</N 2053 0 R>>/NM(fitz-A12)/Contents(NET-DROPOUT-01: Where dropout sits: after the two hidden layers only, or also at the output [Implemented, unverified, impact low]\nWe do: Dropout 0.5 after FC1 and FC2 \(each after its ReLU\). The output layer is linear with no dropout. No dropout in the convolution layers.\nIf we got it wrong: If the literal text were right, a ReLU before the softmax would set both outputs to zero on many noise tiles, giving exactly 0.5 and 0.5, a ratio of 1. Many noise cells would then tie at the threshold gamma = 1, which reshapes the low-Pfa end of the ROC and what the counting stage sees. The figure argues against it, so our reading is the likely one.\nTo close: A person checks the labels under FC1, FC2 and FC_n\(2\) in journal Fig. 3 \(p9\).)/T(NET-DROPOUT-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.35 .78 .45]/P 1066 0 R/F 4/QuadPoints[335.5879 407.2406 477.60557 407.2406 335.5879 392.7072 477.60557 392.7072]/Rect[332.16224 391.7989 481.03123 408.14894]/AP<</N 2053 0 R>>/NM(fitz-A12)/Contents(NET-DROPOUT-01: Where dropout sits: after the two hidden layers only, or also at the output [Verified, impact low]\nWe do: Dropout 0.5 after FC1 and FC2 \(each after its ReLU\). The output layer is linear with no dropout. No dropout in the convolution layers.\nIf we got it wrong: If the literal text were right, a ReLU before the softmax would set both outputs to zero on many noise tiles, giving exactly 0.5 and 0.5, a ratio of 1. Many noise cells would then tie at the threshold gamma = 1, which reshapes the low-Pfa end of the ROC and what the counting stage sees. The figure argues against it, so our reading is the likely one.\nTo close: A person checks the labels under FC1, FC2 and FC_n\(2\) in journal Fig. 3 \(p9\).)/T(NET-DROPOUT-01)/BM/Multiply>>
 endobj
 
 2053 0 obj
-<</Type/XObject/Subtype/Form/BBox[332.16224 391.7989 481.03123 408.14894]/Matrix[1 0 0 1 0 0]/Resources<</ExtGState<</H<</BM/Multiply>>>>>>/Length 114/Filter/FlateDecode>>
+<</Type/XObject/Subtype/Form/BBox[332.16224 391.7989 481.03123 408.14894]/Matrix[1 0 0 1 0 0]/Resources<</ExtGState<</H<</BM/Multiply>>>>>>/Length 115/Filter/FlateDecode>>
 stream
-x⁄MŒªAE—‹U∏ÇáøcO§‘∞õ@ Ù/±⁄!qp§´Á]Æº~≥m„˜NÓâÏöÏ”PR∆œ√:Ã‚¿uÎÊe!é÷ò…gR∞ê¡EÜd÷¬E+ƒ’¸/^∂FV|~≥—ùËF_)&¢
+x⁄MŒªAE—‹U∏ÇáøcO§‘∞õ@ Ù/±⁄!qp§´Á]Æº~ûåjF$øwrOd◊düÜí2~f–a®[7/q¥∆L>€êÇÖﬁ(™0$≥>(Z!ÆÊÒ≤5≤‚ÛõçÓD7˙PW&’
 endstream
 endobj
 
 2054 0 obj
-<</Type/Annot/Subtype/FreeText/Rect[511.276 398.7406 589.276 408.2406]/CL[0 790.866 543.5285 408.2406]/BS<</Type/Border/W 0>>/DA(0.15 0.15 0.15 rg /Helv 5.5 Tf)/P 1066 0 R/F 4/Contents(NET-DROPOUT-01)/Q 0/C[.98 .82 .2]/RD[0 0 0 0]/AP<</N 2055 0 R>>/NM(fitz-A13)>>
+<</Type/Annot/Subtype/FreeText/Rect[511.276 398.7406 589.276 408.2406]/CL[0 790.866 543.5285 408.2406]/BS<</Type/Border/W 0>>/DA(0.15 0.15 0.15 rg /Helv 5.5 Tf)/P 1066 0 R/F 4/Contents(NET-DROPOUT-01)/Q 0/C[.35 .78 .45]/RD[0 0 0 0]/AP<</N 2055 0 R>>/NM(fitz-A13)>>
 endobj
 
 2055 0 obj
-<</Type/XObject/Subtype/Form/BBox[511.276 398.7406 589.276 408.2406]/Matrix[1 0 0 1 0 0]/Resources<</Font<</Helv 1930 0 R>>>>/Length 142/Filter/FlateDecode>>
+<</Type/XObject/Subtype/Form/BBox[511.276 398.7406 589.276 408.2406]/Matrix[1 0 0 1 0 0]/Resources<</Font<</Helv 1930 0 R>>>>/Length 141/Filter/FlateDecode>>
 stream
-xú}çΩ
-AÑ˚<≈îZl‹¨Óœµ‚°ïßGƒ–;AT
-}}ca!Ç)>2√«Uó NƒÒπvIOä"r¬¥*úg>!T1t‘ˇ{ÓÈFwx8¡OÛp•π~	ÕoM·Ï-=∫ƒÈç60û¨∫À—⁄”h]´[¥Õ¶Ÿ©Û2Üû©V⁄“{+≠
+xú}ç±
+¬PE˜|≈ux1±}Ôµ´Xt≤Z"~Ä∂Ç®†É˛æ\D0ê·êú+pq?´„gª	ûUyöä∫‚\JÇ€5ª›”Ô∏£+›H!≈èπø–ÃæÇﬁwS9ãè¬é!qz£?8Oñ˝˘ÅËh¥j,Ãªv›n-àéa'jå6Ù§¯+‡
 endstream
 endobj
 
@@ -23050,7 +23045,7 @@ endstream
 endobj
 
 2088 0 obj
-<</Type/Annot/Subtype/Highlight/C[.9 .25 .25]/P 1701 0 R/F 4/QuadPoints[254.70943 357.07875 477.6271 357.07875 254.70943 342.54536 477.6271 342.54536]/Rect[251.28377 341.63703 481.05278 357.98707]/AP<</N 2089 0 R>>/NM(fitz-A8)/Contents(REAL-MULTIPATH-01: A second peak on clean real data may be multipath, which the paper says it cannot tell from spoofing [Not done, impact low]\nWe do: Never checked. The simulator has no multipath, so real data is the first place it can appear.\nIf we got it wrong: Clean-data false alarms would be blamed on the detector or the counter when they come from the antenna site.\nTo close: Inspection: for every clean-segment map the counter calls spoofed, check whether the second peak sits within about 1.5 chips of the main one, and report that share separately.)/T(REAL-MULTIPATH-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.9 .25 .25]/P 1701 0 R/F 4/QuadPoints[254.70943 357.07875 477.6271 357.07875 254.70943 342.54536 477.6271 342.54536]/Rect[251.28377 341.63703 481.05278 357.98707]/AP<</N 2089 0 R>>/NM(fitz-A8)/Contents(REAL-MULTIPATH-01: A second peak on clean real data may be multipath, which the paper says it cannot tell from spoofing [Not done, impact low]\nWe do: Never checked. The simulator has no multipath, so real data is the first place it can appear.\nIf we got it wrong: Clean-data false alarms would be blamed on the detector or the counter when they come from the antenna site.\nTo close: Inspection: for every clean-segment map the counter calls spoofed, report the share whose second peak sits within each delay band out to at least 2.5 chips of the main one. The group's own multipath simulations reach 2.5 chips \(Li 2023\) and 6 chips \(Li 2020\).)/T(REAL-MULTIPATH-01)/BM/Multiply>>
 endobj
 
 2089 0 obj
@@ -23149,7 +23144,7 @@ endstream
 endobj
 
 2104 0 obj
-<</Type/Annot/Subtype/Highlight/C[.9 .25 .25]/P 1537 0 R/F 4/QuadPoints[117.6378 506.4394 240.2044 506.4394 117.6378 491.906 240.2044 491.906]/Rect[114.212139 490.99769 243.63007 507.34773]/AP<</N 2105 0 R>>/NM(fitz-A2)/Contents(CAF-STDDET-02: The paper's own theory curves \(Fig. 7, solid lines\) [Not done, impact high]\nWe do: Not reproduced. 0053 digitized only the dashed curves and left the solid ones out as not a reproduction goal.\nIf we got it wrong: This is the cheapest direct test of the strength gap. Skipping it leaves Gate A's main residual explained only by ruling other causes out.\nTo close: Experiment: digitize the solid curves from thesis Fig. 3.16 \(wider axes than journal Fig. 7; note the 0053 Fig. 7 calibration bug in RES-FIG7-39-01\), compute textbook acquisition ROCs at the same C/N0, and measure the horizontal offset.)/T(CAF-STDDET-02)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.9 .25 .25]/P 1537 0 R/F 4/QuadPoints[117.6378 506.4394 240.2044 506.4394 117.6378 491.906 240.2044 491.906]/Rect[114.212139 490.99769 243.63007 507.34773]/AP<</N 2105 0 R>>/NM(fitz-A2)/Contents(CAF-STDDET-02: The paper's own theory curves \(Fig. 7, solid lines\) [Not done, impact high]\nWe do: Not reproduced. 0053 digitized only the dashed curves and left the solid ones out as not a reproduction goal.\nIf we got it wrong: This is the cheapest direct test of the strength gap. Skipping it leaves Gate A's main residual explained only by ruling other causes out.\nTo close: Experiment: implement their equations with K = 6, digitize the solid curves from thesis Fig. 3.16 \(byte-identical to the preprint's Fig. 7; wider axes than the journal's\), and fit the one free convention, how C/N0 sets alpha_i and sigma^2, testing the candidates named in SIG-CN0DEF-01.)/T(CAF-STDDET-02)/BM/Multiply>>
 endobj
 
 2105 0 obj
@@ -23220,7 +23215,7 @@ endstream
 endobj
 
 2116 0 obj
-<</Type/Annot/Subtype/Highlight/C[.98 .82 .2]/P 1537 0 R/F 4/QuadPoints[146.5658 100.252017 317.7553 100.252017 146.5658 91.18799 317.7553 91.18799]/Rect[144.42932 90.62149 319.89179 100.81851]/AP<</N 2117 0 R>>/NM(fitz-A8)/Contents(RES-FIG7-39-01: Fig. 7 at 39 dB-Hz: the one published detection point Gate A compares against [Implemented, unverified, impact high]\nWe do: Pd at Pfa 0.05 under three readings: per cell 0.9997 \(arm F, five seeds, sd 0.0003\); per 2000-cell map 0.969 \(three seeds\); per stride-6 full map 0.583 \(one seed, 60 maps\). Gate A calls the published value contained because it falls between 0.583 and 0.9997.\nIf we got it wrong: Containment is weak evidence. The band is 0.42 wide, and its lower end moves with how many cells a map has \(0.969 at 2000 cells, 0.583 at about 25,000\). The full-map value rests on 60 maps, so its Pfa 0.05 threshold is set by three maps. Separately, 0053's digitizer calibration is off by one tick label on the Pd axis, so its auto cross-check values and its recorded onset \(Pfa 0.0109\) are wrong. The hand-read targets were read by eye and agree with a corrected reading to within 0.026.\nTo close: Reading: a person re-reads the curve at Pfa 0.05 and 0.10 on journal p15, then fixes targets_fig7.csv, calibration_fig7.json and targets_fig7_autocrosscheck.csv. The per-map value at the paper's map size comes from the EVAL-CASE-01 scan.)/T(RES-FIG7-39-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.98 .82 .2]/P 1537 0 R/F 4/QuadPoints[146.5658 100.252017 317.7553 100.252017 146.5658 91.18799 317.7553 91.18799]/Rect[144.42932 90.62149 319.89179 100.81851]/AP<</N 2117 0 R>>/NM(fitz-A8)/Contents(RES-FIG7-39-01: Fig. 7 at 39 dB-Hz: the one published detection point Gate A compares against [Implemented, unverified, impact high]\nWe do: Pd at Pfa 0.05 under three readings: per cell 0.9997 \(arm F, five seeds, sd 0.0003\); per 2000-cell map 0.969 \(three seeds\); per stride-6 full map 0.583 \(one seed, 60 maps\). Gate A calls the published value contained because it falls between 0.583 and 0.9997.\nIf we got it wrong: Containment is weak evidence. The band is 0.42 wide, and its lower end moves with how many cells a map has \(0.969 at 2000 cells, 0.583 at about 25,000\). The full-map value rests on 60 maps, so its Pfa 0.05 threshold is set by three maps. Separately, 0053's digitizer calibration is off by one tick label on the Pd axis, so its auto cross-check values and its recorded onset \(Pfa 0.0109\) are wrong. The hand-read targets were read by eye and agree with a corrected reading to within 0.026.\nTo close: Read by script in two passes \(check:fig7_39_two_pass\): Pd 0.92 at Pfa 0.10, 0.86 to 0.87 at Pfa 0.05. Remaining: fix targets_fig7.csv, calibration_fig7.json and targets_fig7_autocrosscheck.csv to these values. The per-map value at the paper's map size comes from the EVAL-CASE-01 scan.)/T(RES-FIG7-39-01)/BM/Multiply>>
 endobj
 
 2117 0 obj
@@ -23626,7 +23621,7 @@ endstream
 endobj
 
 2184 0 obj
-<</Type/Annot/Subtype/Highlight/C[.45 .6 .95]/P 1332 0 R/F 4/QuadPoints[232.30664 104.71802 448.99049 104.71802 232.30664 90.18463 448.99049 90.18463]/Rect[228.88098 89.27629 452.41615 105.62636]/AP<</N 2185 0 R>>/NM(fitz-A10)/Contents(COUNT-EM-01: EM settings for the GMM fit \(start, restarts, regularization\) [Paper silent, our choice, impact high]\nWe do: scikit-learn GaussianMixture with full covariances and reg_covar = 1e-3 \(added to each covariance diagonal, in standardized units\), plus its defaults: one k-means start \(n_init = 1\), at most 100 iterations, tolerance 1e-3. random_state is the model seed \(0\) for every map. None of this is written in our docs or in the Gate A write-up; it lives only in the code.\nIf we got it wrong: A candidate main cause of the counting failure, alongside COUNT-POINTS-01. If they used MATLAB \(inferred in TRAIN-DEFAULTS-01\), its fitgmdist uses no regularization by default and, to my knowledge, stops with an error on a singular covariance, which a one-column cluster like those in Fig. 6c would produce. So they probably set a regularization, or their clusters are wider than they look. Not checked.\nTo close: Ablation on the 45 dB-Hz counting control: reg_covar 1e-3, 1e-2 and 0.1; n_init 1 and 10. Then state the chosen settings in the Gate A write-up.)/T(COUNT-EM-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.45 .6 .95]/P 1332 0 R/F 4/QuadPoints[232.30664 104.71802 448.99049 104.71802 232.30664 90.18463 448.99049 90.18463]/Rect[228.88098 89.27629 452.41615 105.62636]/AP<</N 2185 0 R>>/NM(fitz-A10)/Contents(COUNT-EM-01: EM settings for the GMM fit \(start, restarts, regularization\) [Paper silent, our choice, impact high]\nWe do: scikit-learn GaussianMixture with full covariances and reg_covar = 1e-3 \(added to each covariance diagonal, in standardized units\), plus its defaults: one k-means start \(n_init = 1\), at most 100 iterations, tolerance 1e-3. random_state is the model seed \(0\) for every map. None of this is written in our docs or in the Gate A write-up; it lives only in the code.\nIf we got it wrong: A candidate main cause of the counting failure, alongside COUNT-POINTS-01. If they used MATLAB \(inferred in TRAIN-DEFAULTS-01\), its fitgmdist uses no regularization by default and, to my knowledge, stops with an error on a singular covariance, which a one-column cluster like those in Fig. 6c would produce. So they probably set a regularization, or their clusters are wider than they look. Not checked.\nTo close: Ablation on the 45 dB-Hz counting control: reg_covar 1e-3, 1e-2 and 0.1; n_init 1 and 10; plus a MATLAB-default arm \(k-means++ start, 1 replicate, regularization 0, tolerance 1e-6, 100 iterations\). Zero regularization may fail on thin clusters of grid cells, which is itself informative. Then state the chosen settings in the Gate A write-up.)/T(COUNT-EM-01)/BM/Multiply>>
 endobj
 
 2185 0 obj
@@ -23699,7 +23694,7 @@ endstream
 endobj
 
 2196 0 obj
-<</Type/Annot/Subtype/Highlight/C[.9 .25 .25]/P 1617 0 R/F 4/QuadPoints[125.634609 676.08828 342.95744 676.08828 125.634609 661.5549 342.95744 661.5549]/Rect[122.20894 660.64657 346.3831 676.9966]/AP<</N 2197 0 R>>/NM(fitz-A0)/Contents(RES-FIG8-01: Fig. 8 \(Pfa and Pd against the threshold\): never used as a direct target [Not done, impact medium]\nWe do: Phase 1 never scores against Fig. 8. 0053 digitized only trend features \(Pfa floor and highest Pd per C/N0\), and Phase 2's false-alarm fit compared its count-rule floors with them.\nIf we got it wrong: Two of 0053's readings are off. The 36 dB-Hz Pfa floor is 0.625 to 0.713 by my script reading, not 0.50. And "their 36 dB-Hz pair \(Pfa 0.5, Pd 0.29\)" in the status doc and spec does not occur in either figure: Pd 0.29 comes with Pfa about 0.71. The Phase 2 verdict survives, since our GMM count-rule floor at 36 dB-Hz is 0.0025, far from either value. The write-up's "ours rising from 0.005 to 0.79" does not match the json floors, 0.0025 \(36\) to 0.6175 \(45\); the direction holds.\nTo close: Reading: a person re-reads Fig. 8a at 36 dB-Hz, then fixes targets_fig8.csv, the status doc and 02-reproduction.tex:74. Test: once fused scores are saved \(EVAL-THRESH-01\), plot our Pfa\(gamma\) and Pd\(gamma\) on Fig. 8's axes.)/T(RES-FIG8-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.9 .25 .25]/P 1617 0 R/F 4/QuadPoints[125.634609 676.08828 342.95744 676.08828 125.634609 661.5549 342.95744 661.5549]/Rect[122.20894 660.64657 346.3831 676.9966]/AP<</N 2197 0 R>>/NM(fitz-A0)/Contents(RES-FIG8-01: Fig. 8 \(Pfa and Pd against the threshold\): never used as a direct target [Not done, impact medium]\nWe do: Phase 1 never scores against Fig. 8. 0053 digitized only trend features \(Pfa floor and highest Pd per C/N0\), and Phase 2's false-alarm fit compared its count-rule floors with them.\nIf we got it wrong: Two of 0053's readings are off. The 36 dB-Hz Pfa floor is 0.625 to 0.713 by my script reading, not 0.50. And "their 36 dB-Hz pair \(Pfa 0.5, Pd 0.29\)" in the status doc and spec does not occur in either figure: Pd 0.29 comes with Pfa about 0.71. The Phase 2 verdict survives, since our GMM count-rule floor at 36 dB-Hz is 0.0025, far from either value. The write-up's "ours rising from 0.005 to 0.79" does not match the json floors, 0.0025 \(36\) to 0.6175 \(45\); the direction holds.\nTo close: Read by script in two passes \(check:fig8a_two_pass\). Remaining: fix targets_fig8.csv, the status doc and 02-reproduction.tex:74. Test: once fused scores are saved \(EVAL-THRESH-01\), plot our Pfa\(gamma\) and Pd\(gamma\) on Fig. 8's axes.)/T(RES-FIG8-01)/BM/Multiply>>
 endobj
 
 2197 0 obj
@@ -23724,7 +23719,7 @@ endstream
 endobj
 
 2200 0 obj
-<</Type/Annot/Subtype/Highlight/C[.98 .82 .2]/P 1617 0 R/F 4/QuadPoints[251.2792 647.7894 436.11219 647.7894 251.2792 633.25607 436.11219 633.25607]/Rect[247.85355 632.3477 439.53785 648.69778]/AP<</N 2201 0 R>>/NM(fitz-A2)/Contents(EVAL-H1H0-01: What the ROC scores as a hit and as a false alarm [Implemented, unverified, impact high]\nWe do: Each test map holds the real signal plus one spoofer 1 dB weaker, 60 to 320 samples and 400 to 800 Hz away. Hits: the tile on the real peak and the tile on the spoofer peak, both positives. False alarms: one noise tile from the same map, half a code period away. No noise-only maps, no clean maps.\nIf we got it wrong: Our peak-against-noise reading follows the results text, and our network scores it at AUC 0.982 at 36 dB-Hz, so it cannot produce their Pd 0.29 at Pfa 0.7 per cell. Phase 2 already tested one map-level alternative, a false alarm as "two or more peaks counted on a clean map": its floor at 36 dB-Hz is 0.0025 against their 0.63, so that reading is out on our maps. What remains untested is the per-map noise reading \(EVAL-CASE-01\). Half our positives are a spoofer 1 dB below the stated C/N0 \(SIG-SPOOFPWR-01\), which lowers our Pd a little.\nTo close: The sources add nothing more that I found \(journal, thesis PDF p68 to p79, Sensors p9 to p16\). Close it with the batch D scan in EVAL-CASE-01, and score it twice: positives as the real peak only, and as the spoofer peak only, to see which one their curves follow.)/T(EVAL-H1H0-01)/BM/Multiply>>
+<</Type/Annot/Subtype/Highlight/C[.98 .82 .2]/P 1617 0 R/F 4/QuadPoints[251.2792 647.7894 436.11219 647.7894 251.2792 633.25607 436.11219 633.25607]/Rect[247.85355 632.3477 439.53785 648.69778]/AP<</N 2201 0 R>>/NM(fitz-A2)/Contents(EVAL-H1H0-01: What the ROC scores as a hit and as a false alarm [Implemented, unverified, impact high]\nWe do: Each test map holds the real signal plus one spoofer 1 dB weaker, 60 to 320 samples and 400 to 800 Hz away. Hits: the tile on the real peak and the tile on the spoofer peak, both positives. False alarms: one noise tile from the same map, half a code period away. No noise-only maps, no clean maps.\nIf we got it wrong: Our peak-against-noise reading follows the results text, and our network scores it at AUC 0.982 at 36 dB-Hz, so it cannot produce their Pd 0.29 at Pfa 0.7 per cell. Phase 2 already tested one map-level alternative, a false alarm as "two or more peaks counted on a clean map": its floor at 36 dB-Hz is 0.0025 against their 0.63, so that reading is out on our maps. What remains untested is the per-map noise reading \(EVAL-CASE-01\). Half our positives are a spoofer 1 dB below the stated C/N0 \(SIG-SPOOFPWR-01\), which lowers our Pd a little.\nTo close: The sources add nothing more that I found \(journal, thesis PDF p68 to p79, Sensors p9 to p16\). Close it with the batch D scan in EVAL-CASE-01, and score it twice: positives as the real peak only, as the spoofer peak only, and as a map-level spoofed-against-clean test \(the framing of the initial work [29]\), to see which one their curves follow.)/T(EVAL-H1H0-01)/BM/Multiply>>
 endobj
 
 2201 0 obj
@@ -25688,276 +25683,276 @@ xref
 0003069952 00000 n 
 0003070237 00000 n 
 0003070576 00000 n 
-0003071373 00000 n 
-0003071696 00000 n 
-0003071979 00000 n 
-0003072317 00000 n 
-0003073087 00000 n 
-0003073409 00000 n 
-0003073691 00000 n 
-0003074027 00000 n 
-0003074410 00000 n 
-0003074733 00000 n 
-0003075014 00000 n 
-0003075348 00000 n 
-0003076185 00000 n 
-0003076507 00000 n 
-0003076791 00000 n 
-0003077128 00000 n 
-0003077513 00000 n 
-0003077832 00000 n 
-0003078112 00000 n 
-0003078447 00000 n 
-0003078827 00000 n 
-0003079149 00000 n 
-0003079430 00000 n 
-0003079766 00000 n 
-0003080690 00000 n 
-0003081017 00000 n 
-0003081301 00000 n 
-0003081640 00000 n 
-0003082328 00000 n 
-0003082652 00000 n 
-0003082944 00000 n 
-0003083285 00000 n 
-0003084555 00000 n 
-0003084935 00000 n 
-0003085214 00000 n 
-0003085548 00000 n 
-0003085888 00000 n 
-0003086212 00000 n 
-0003086493 00000 n 
-0003086828 00000 n 
-0003087679 00000 n 
-0003088003 00000 n 
-0003088288 00000 n 
-0003088628 00000 n 
-0003090256 00000 n 
-0003090581 00000 n 
-0003090867 00000 n 
-0003091204 00000 n 
-0003092168 00000 n 
-0003092491 00000 n 
-0003092771 00000 n 
-0003093104 00000 n 
-0003094684 00000 n 
-0003095008 00000 n 
-0003095307 00000 n 
-0003095652 00000 n 
-0003096035 00000 n 
-0003096363 00000 n 
-0003096645 00000 n 
-0003096980 00000 n 
-0003097716 00000 n 
-0003098041 00000 n 
-0003098331 00000 n 
-0003098674 00000 n 
-0003099565 00000 n 
-0003099947 00000 n 
-0003100236 00000 n 
-0003100576 00000 n 
-0003101889 00000 n 
-0003102215 00000 n 
-0003102504 00000 n 
-0003102845 00000 n 
-0003104003 00000 n 
-0003104325 00000 n 
-0003104612 00000 n 
-0003104951 00000 n 
-0003106048 00000 n 
-0003106368 00000 n 
-0003106669 00000 n 
-0003107016 00000 n 
-0003107775 00000 n 
-0003108096 00000 n 
-0003108377 00000 n 
-0003108710 00000 n 
-0003109116 00000 n 
-0003109443 00000 n 
-0003109730 00000 n 
-0003110071 00000 n 
-0003111609 00000 n 
-0003111935 00000 n 
-0003112237 00000 n 
-0003112583 00000 n 
-0003113027 00000 n 
-0003113407 00000 n 
-0003113687 00000 n 
-0003114021 00000 n 
-0003114357 00000 n 
-0003114676 00000 n 
-0003114957 00000 n 
-0003115291 00000 n 
-0003115792 00000 n 
-0003116117 00000 n 
-0003116399 00000 n 
-0003116734 00000 n 
-0003117180 00000 n 
-0003117503 00000 n 
-0003117785 00000 n 
-0003118121 00000 n 
-0003118895 00000 n 
-0003119217 00000 n 
-0003119502 00000 n 
-0003119842 00000 n 
-0003121429 00000 n 
-0003121752 00000 n 
-0003122040 00000 n 
-0003122382 00000 n 
-0003123407 00000 n 
-0003123730 00000 n 
-0003124013 00000 n 
-0003124350 00000 n 
-0003125749 00000 n 
-0003126074 00000 n 
-0003126363 00000 n 
-0003126707 00000 n 
-0003128049 00000 n 
-0003128375 00000 n 
-0003128660 00000 n 
-0003128997 00000 n 
-0003129760 00000 n 
-0003130083 00000 n 
-0003130366 00000 n 
-0003130704 00000 n 
-0003131757 00000 n 
-0003132081 00000 n 
-0003132372 00000 n 
-0003132715 00000 n 
-0003133589 00000 n 
-0003133909 00000 n 
-0003134195 00000 n 
-0003134533 00000 n 
-0003135944 00000 n 
-0003136264 00000 n 
-0003136543 00000 n 
-0003136875 00000 n 
-0003137646 00000 n 
-0003137966 00000 n 
-0003138248 00000 n 
-0003138586 00000 n 
-0003139606 00000 n 
-0003139931 00000 n 
-0003140216 00000 n 
-0003140554 00000 n 
-0003141407 00000 n 
-0003141732 00000 n 
-0003142021 00000 n 
-0003142363 00000 n 
-0003143464 00000 n 
-0003143789 00000 n 
-0003144074 00000 n 
-0003144412 00000 n 
-0003145624 00000 n 
-0003145950 00000 n 
-0003146239 00000 n 
-0003146582 00000 n 
-0003147586 00000 n 
-0003147966 00000 n 
-0003148245 00000 n 
-0003148577 00000 n 
-0003149478 00000 n 
-0003149804 00000 n 
-0003150085 00000 n 
-0003150419 00000 n 
-0003151907 00000 n 
-0003152230 00000 n 
-0003152516 00000 n 
-0003152855 00000 n 
-0003153601 00000 n 
-0003153925 00000 n 
-0003154209 00000 n 
-0003154546 00000 n 
-0003156000 00000 n 
-0003156324 00000 n 
-0003156612 00000 n 
-0003156951 00000 n 
-0003157937 00000 n 
-0003158257 00000 n 
-0003158540 00000 n 
-0003158878 00000 n 
-0003159955 00000 n 
-0003160278 00000 n 
-0003160562 00000 n 
-0003160903 00000 n 
-0003162060 00000 n 
-0003162385 00000 n 
-0003162666 00000 n 
-0003163005 00000 n 
-0003164406 00000 n 
-0003164728 00000 n 
-0003165011 00000 n 
-0003165351 00000 n 
-0003166451 00000 n 
-0003166775 00000 n 
-0003167061 00000 n 
-0003167400 00000 n 
-0003168130 00000 n 
-0003168506 00000 n 
-0003168788 00000 n 
-0003169124 00000 n 
-0003170190 00000 n 
-0003170515 00000 n 
-0003170798 00000 n 
-0003171134 00000 n 
-0003172092 00000 n 
-0003172414 00000 n 
-0003172697 00000 n 
-0003173032 00000 n 
-0003174263 00000 n 
-0003174579 00000 n 
-0003174866 00000 n 
-0003175206 00000 n 
-0003176372 00000 n 
-0003176694 00000 n 
-0003176981 00000 n 
-0003177321 00000 n 
-0003178446 00000 n 
-0003178767 00000 n 
-0003179051 00000 n 
-0003179389 00000 n 
-0003180989 00000 n 
-0003181313 00000 n 
-0003181594 00000 n 
-0003181929 00000 n 
-0003183119 00000 n 
-0003183443 00000 n 
-0003183729 00000 n 
-0003184070 00000 n 
-0003185130 00000 n 
-0003185456 00000 n 
-0003185742 00000 n 
-0003186084 00000 n 
-0003187032 00000 n 
-0003187356 00000 n 
-0003187636 00000 n 
-0003187972 00000 n 
-0003188405 00000 n 
-0003188731 00000 n 
-0003189020 00000 n 
-0003189363 00000 n 
-0003190725 00000 n 
-0003191046 00000 n 
-0003191328 00000 n 
-0003191662 00000 n 
-0003193337 00000 n 
-0003193660 00000 n 
-0003193937 00000 n 
-0003194271 00000 n 
-0003195398 00000 n 
-0003195720 00000 n 
-0003195998 00000 n 
-0003196334 00000 n 
-0003197673 00000 n 
-0003197995 00000 n 
-0003198277 00000 n 
-0003198612 00000 n 
-0003200146 00000 n 
-0003200467 00000 n 
-0003200746 00000 n 
+0003071441 00000 n 
+0003071764 00000 n 
+0003072047 00000 n 
+0003072385 00000 n 
+0003073155 00000 n 
+0003073477 00000 n 
+0003073759 00000 n 
+0003074095 00000 n 
+0003074478 00000 n 
+0003074801 00000 n 
+0003075082 00000 n 
+0003075416 00000 n 
+0003076253 00000 n 
+0003076575 00000 n 
+0003076859 00000 n 
+0003077196 00000 n 
+0003077581 00000 n 
+0003077900 00000 n 
+0003078180 00000 n 
+0003078515 00000 n 
+0003078895 00000 n 
+0003079217 00000 n 
+0003079498 00000 n 
+0003079834 00000 n 
+0003080758 00000 n 
+0003081085 00000 n 
+0003081369 00000 n 
+0003081708 00000 n 
+0003082396 00000 n 
+0003082720 00000 n 
+0003083012 00000 n 
+0003083353 00000 n 
+0003084623 00000 n 
+0003085003 00000 n 
+0003085282 00000 n 
+0003085616 00000 n 
+0003085956 00000 n 
+0003086280 00000 n 
+0003086561 00000 n 
+0003086896 00000 n 
+0003087798 00000 n 
+0003088123 00000 n 
+0003088409 00000 n 
+0003088749 00000 n 
+0003090500 00000 n 
+0003090825 00000 n 
+0003091111 00000 n 
+0003091448 00000 n 
+0003092412 00000 n 
+0003092735 00000 n 
+0003093015 00000 n 
+0003093348 00000 n 
+0003095180 00000 n 
+0003095504 00000 n 
+0003095803 00000 n 
+0003096148 00000 n 
+0003096531 00000 n 
+0003096859 00000 n 
+0003097141 00000 n 
+0003097476 00000 n 
+0003098212 00000 n 
+0003098537 00000 n 
+0003098827 00000 n 
+0003099170 00000 n 
+0003100061 00000 n 
+0003100443 00000 n 
+0003100732 00000 n 
+0003101072 00000 n 
+0003102385 00000 n 
+0003102711 00000 n 
+0003103000 00000 n 
+0003103341 00000 n 
+0003104485 00000 n 
+0003104807 00000 n 
+0003105095 00000 n 
+0003105433 00000 n 
+0003106530 00000 n 
+0003106850 00000 n 
+0003107151 00000 n 
+0003107498 00000 n 
+0003108257 00000 n 
+0003108578 00000 n 
+0003108859 00000 n 
+0003109192 00000 n 
+0003109598 00000 n 
+0003109925 00000 n 
+0003110212 00000 n 
+0003110553 00000 n 
+0003112091 00000 n 
+0003112417 00000 n 
+0003112719 00000 n 
+0003113065 00000 n 
+0003113509 00000 n 
+0003113889 00000 n 
+0003114169 00000 n 
+0003114503 00000 n 
+0003114839 00000 n 
+0003115158 00000 n 
+0003115439 00000 n 
+0003115773 00000 n 
+0003116274 00000 n 
+0003116599 00000 n 
+0003116881 00000 n 
+0003117216 00000 n 
+0003117662 00000 n 
+0003117985 00000 n 
+0003118267 00000 n 
+0003118603 00000 n 
+0003119377 00000 n 
+0003119699 00000 n 
+0003119984 00000 n 
+0003120324 00000 n 
+0003121835 00000 n 
+0003122158 00000 n 
+0003122447 00000 n 
+0003122788 00000 n 
+0003123799 00000 n 
+0003124123 00000 n 
+0003124407 00000 n 
+0003124743 00000 n 
+0003126142 00000 n 
+0003126467 00000 n 
+0003126756 00000 n 
+0003127100 00000 n 
+0003128442 00000 n 
+0003128768 00000 n 
+0003129053 00000 n 
+0003129390 00000 n 
+0003130153 00000 n 
+0003130476 00000 n 
+0003130759 00000 n 
+0003131097 00000 n 
+0003132150 00000 n 
+0003132474 00000 n 
+0003132765 00000 n 
+0003133108 00000 n 
+0003133982 00000 n 
+0003134302 00000 n 
+0003134588 00000 n 
+0003134926 00000 n 
+0003136337 00000 n 
+0003136657 00000 n 
+0003136936 00000 n 
+0003137268 00000 n 
+0003138039 00000 n 
+0003138359 00000 n 
+0003138641 00000 n 
+0003138979 00000 n 
+0003139999 00000 n 
+0003140324 00000 n 
+0003140609 00000 n 
+0003140947 00000 n 
+0003141888 00000 n 
+0003142213 00000 n 
+0003142502 00000 n 
+0003142844 00000 n 
+0003143945 00000 n 
+0003144270 00000 n 
+0003144555 00000 n 
+0003144893 00000 n 
+0003146105 00000 n 
+0003146431 00000 n 
+0003146720 00000 n 
+0003147063 00000 n 
+0003148067 00000 n 
+0003148447 00000 n 
+0003148726 00000 n 
+0003149058 00000 n 
+0003150009 00000 n 
+0003150335 00000 n 
+0003150616 00000 n 
+0003150950 00000 n 
+0003152438 00000 n 
+0003152761 00000 n 
+0003153047 00000 n 
+0003153386 00000 n 
+0003154132 00000 n 
+0003154456 00000 n 
+0003154740 00000 n 
+0003155077 00000 n 
+0003156581 00000 n 
+0003156905 00000 n 
+0003157193 00000 n 
+0003157532 00000 n 
+0003158518 00000 n 
+0003158838 00000 n 
+0003159121 00000 n 
+0003159459 00000 n 
+0003160536 00000 n 
+0003160859 00000 n 
+0003161143 00000 n 
+0003161484 00000 n 
+0003162641 00000 n 
+0003162966 00000 n 
+0003163247 00000 n 
+0003163586 00000 n 
+0003164987 00000 n 
+0003165309 00000 n 
+0003165592 00000 n 
+0003165932 00000 n 
+0003167032 00000 n 
+0003167356 00000 n 
+0003167642 00000 n 
+0003167981 00000 n 
+0003168711 00000 n 
+0003169087 00000 n 
+0003169369 00000 n 
+0003169705 00000 n 
+0003170771 00000 n 
+0003171096 00000 n 
+0003171379 00000 n 
+0003171715 00000 n 
+0003172673 00000 n 
+0003172995 00000 n 
+0003173278 00000 n 
+0003173613 00000 n 
+0003174844 00000 n 
+0003175160 00000 n 
+0003175447 00000 n 
+0003175787 00000 n 
+0003176953 00000 n 
+0003177275 00000 n 
+0003177562 00000 n 
+0003177902 00000 n 
+0003179027 00000 n 
+0003179348 00000 n 
+0003179632 00000 n 
+0003179970 00000 n 
+0003181570 00000 n 
+0003181894 00000 n 
+0003182175 00000 n 
+0003182510 00000 n 
+0003183700 00000 n 
+0003184024 00000 n 
+0003184310 00000 n 
+0003184651 00000 n 
+0003185711 00000 n 
+0003186037 00000 n 
+0003186323 00000 n 
+0003186665 00000 n 
+0003187613 00000 n 
+0003187937 00000 n 
+0003188217 00000 n 
+0003188553 00000 n 
+0003188986 00000 n 
+0003189312 00000 n 
+0003189601 00000 n 
+0003189944 00000 n 
+0003191506 00000 n 
+0003191827 00000 n 
+0003192109 00000 n 
+0003192443 00000 n 
+0003194118 00000 n 
+0003194441 00000 n 
+0003194718 00000 n 
+0003195052 00000 n 
+0003196179 00000 n 
+0003196501 00000 n 
+0003196779 00000 n 
+0003197115 00000 n 
+0003198465 00000 n 
+0003198787 00000 n 
+0003199069 00000 n 
+0003199404 00000 n 
+0003201022 00000 n 
+0003201343 00000 n 
+0003201622 00000 n 
 
 trailer
 <</Size 2204/Info 1 0 R/Root 1828 0 R/ID[<4B2B3D8BF9917ECFF7893A2AC406C938><52D48EC5F4462D221E484CEFAF302E5A>]>>
 startxref
-3201081
+3201957
 %%EOF
